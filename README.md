@@ -1,4 +1,4 @@
-# rust-ecosystem
+# Open source ecosystem
 
 [![Banner](banner.png)](https://traverseresearch.nl)
 
