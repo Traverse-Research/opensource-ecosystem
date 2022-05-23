@@ -17,9 +17,9 @@ Name | Description | Crates.io
 
 This is a list of standards organisations we're part of and are actively collaborating in.
 
-Organisation | Description 
+Organisation | Description
 --- | ---
-[`Khronos`](https://www.khronos.org/members/list) | We're actively aparticipating in the Vulkan ecosystem.
+[`Khronos`](https://www.khronos.org/members/list) | We're actively participating in the Vulkan ecosystem.
 
 
 ## Sponsorships
