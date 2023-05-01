@@ -45,4 +45,4 @@ Organisation | Description
  * __[rust-analyzer](https://github.com/rust-analyzer/rust-analyzer)__ - _" An experimental Rust compiler front-end for IDEs."_
  * __[winapi-rs](https://github.com/retep998/winapi-rs)__ - _"Rust bindings to Windows API"_
 
-For a full overview of projects and individuals that we're sponsoring see our [GitHub sponsorship](https://github.com/TraverseResearch), and [Patreon pledges](https://www.patreon.com/jasper_bekkers/creators) pages.
+For a full overview of projects and individuals that we're sponsoring see our [GitHub sponsorship](https://github.com/orgs/Traverse-Research/sponsoring) page.
