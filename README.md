@@ -4,7 +4,9 @@
 
 ## Open source
 
-This is a list of the open source projects that we've created and are actively maintaining.
+### Created by us
+
+This is a list of the open source projects that we've created.
 
 Name | Description | Crates.io
 --- | --- | ---
@@ -12,10 +14,21 @@ Name | Description | Crates.io
 📒 [`gpu-allocator`](https://github.com/Traverse-Research/gpu-allocator) | Rust native Vulkan memory allocator | [![Latest version](https://img.shields.io/crates/v/gpu-allocator.svg)](https://crates.io/crates/gpu-allocator)
 ⚗ [`ogawa-rs`](https://github.com/Traverse-Research/ogawa-rs) | Rust crate for reading Alembic Cache files | [![Latest version](https://img.shields.io/crates/v/ogawa-rs.svg)](https://crates.io/crates/ogawa-rs)
 🌋 [`rspirv-reflect`](https://github.com/Traverse-Research/rspirv-reflect) | Native Rust crate for SPIR-V reflection | [![Latest version](https://img.shields.io/crates/v/rspirv-reflect.svg)](https://crates.io/crates/rspirv-reflect)
-📟 [`zmq2`](https://github.com/Traverse-Research/zmq2) | Maintained fork of [zmq](https://github.com/erickt/rust-zmq) | [![Latest version](https://img.shields.io/crates/v/zmq2.svg)](https://crates.io/crates/zmq2)
 🖼️ [`intel-tex-rs-2`](https://github.com/Traverse-Research/intel-tex-rs-2) | Maintained fork of [intel-tex-rs](https://github.com/gwihlidal/intel-tex-rs) | [![Latest version](https://img.shields.io/crates/v/intel_tex_2.svg)](https://crates.io/crates/intel_tex_2)
 🗜️ [`ispc-downsampler`](https://github.com/Traverse-Research/ispc-downsampler) | Lanczos texture downsampling using [ISPC](https://github.com/Twinklebear/ispc-rs) | [![Latest version](https://img.shields.io/crates/v/ispc-downsampler.svg)](https://crates.io/crates/ispc-downsampler)
 🤖 [`android-sdkmanager-rs`](https://github.com/Traverse-Research/android-sdkmanager-rs) | [Android's sdkmanager](https://developer.android.com/studio/command-line/sdkmanager) implemented in Rust | [![Latest version](https://img.shields.io/crates/v/android-sdkmanager-rs.svg)](https://crates.io/crates/android-sdkmanager-rs)
+☁️️ [`vdb-rs`](https://github.com/Traverse-Research/vdb-rs) | Rust crate for reading Volume DataBase files | [![Latest version](https://img.shields.io/crates/v/vdb-rs.svg)](https://crates.io/crates/vdb-rs)
+
+### Maintained by us
+
+This is a list of the open source projects that we're contributing to and maintaining.
+
+Name | Description | Crates.io
+--- | --- | ---
+💨 [`ash`](https://github.com/ash-rs/ash) | Lightweight Rust bindings for Vulkan | [![Latest version](https://img.shields.io/crates/v/ash.svg)](https://crates.io/crates/ash)
+📟 [`rust-zmq`](https://github.com/erickt/rust-zmq) | Rust ZeroMQ bindings | [![Latest version](https://img.shields.io/crates/v/zmq.svg)](https://crates.io/crates/zmq)
+🤖 [`ndk`](https://github.com/rust-mobile/ndk) | Safe abstraction over Android Native Development Kit bindings | [![Latest version](https://img.shields.io/crates/v/ndk.svg)](https://crates.io/crates/ndk)
+🤖 [`rust-mobile`](https://github.com/rust-mobile) organisation | Various crates and utilities pertaining mobile (Android + iOS) Rust bindings and support |
 
 ## Open standards
 
