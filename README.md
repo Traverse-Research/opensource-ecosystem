@@ -36,13 +36,13 @@ This is a list of standards organisations we're part of and are actively collabo
 
 Organisation | Description
 --- | ---
-[`Khronos`](https://www.khronos.org/members/list) | We're actively participating in the Vulkan ecosystem.
-
+[Khronos](https://www.khronos.org/members/list) | We're actively participating in the Vulkan ecosystem.
+[Rust Foundation](https://foundation.rust-lang.org/news/member-spotlight-traverse-research/) | We're actively using and contributing to the Rust ecosystem, and Silver Foundation Member.
 
 ## Sponsorships
 
- * __[Dimforge](https://www.dimforge.com/)__ - _"Rust crates for numerical simulation including, but not limited to, real-time (as well as offline) physics, mechanics, and robotics."_
- * __[rust-analyzer](https://github.com/rust-analyzer/rust-analyzer)__ - _" An experimental Rust compiler front-end for IDEs."_
- * __[winapi-rs](https://github.com/retep998/winapi-rs)__ - _"Rust bindings to Windows API"_
+* __[Dimforge](https://www.dimforge.com/)__ - _"Rust crates for numerical simulation including, but not limited to, real-time (as well as offline) physics, mechanics, and robotics."_
+* __[rust-analyzer](https://github.com/rust-analyzer/rust-analyzer)__ - _" An experimental Rust compiler front-end for IDEs."_
+* __[winapi-rs](https://github.com/retep998/winapi-rs)__ - _"Rust bindings to Windows API"_
 
 For a full overview of projects and individuals that we're sponsoring see our [GitHub sponsorship](https://github.com/orgs/Traverse-Research/sponsoring) page.
