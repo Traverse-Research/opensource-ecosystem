@@ -17,7 +17,7 @@ Name | Description | Crates.io
 🖼️ [`intel-tex-rs-2`](https://github.com/Traverse-Research/intel-tex-rs-2) | Maintained fork of [intel-tex-rs](https://github.com/gwihlidal/intel-tex-rs) | [![Latest version](https://img.shields.io/crates/v/intel_tex_2.svg)](https://crates.io/crates/intel_tex_2)
 🗜️ [`ispc-downsampler`](https://github.com/Traverse-Research/ispc-downsampler) | Lanczos texture downsampling using [ISPC](https://github.com/Twinklebear/ispc-rs) | [![Latest version](https://img.shields.io/crates/v/ispc-downsampler.svg)](https://crates.io/crates/ispc-downsampler)
 🤖 [`android-sdkmanager-rs`](https://github.com/Traverse-Research/android-sdkmanager-rs) | [Android's sdkmanager](https://developer.android.com/studio/command-line/sdkmanager) implemented in Rust | [![Latest version](https://img.shields.io/crates/v/android-sdkmanager-rs.svg)](https://crates.io/crates/android-sdkmanager-rs)
-☁️️ [`vdb-rs`](https://github.com/Traverse-Research/vdb-rs) | Rust crate for reading Volume DataBase files | [![Latest version](https://img.shields.io/crates/v/vdb-rs.svg)](https://crates.io/crates/vdb-rs)
+☁️️ [`vdb-rs`](https://github.com/Traverse-Research/vdb-rs) | Rust crate for reading VDB files | [![Latest version](https://img.shields.io/crates/v/vdb-rs.svg)](https://crates.io/crates/vdb-rs)
 
 ### Maintained by us
 
