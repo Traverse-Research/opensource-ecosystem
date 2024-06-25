@@ -2,6 +2,10 @@
 
 How we make it straightforward and accessible to publish new crate releases from our repositories.
 
+> [!IMPORTANT]
+> The `cargo-release` process outlined below requires **push access to `main` and push access for tags**. It'd be great if a `cargo-release` result can be pushed to a Pull Request, and automatically released on an approval + merge (without requiring aforementioned push rights).  This requires the CI to trigger on a version bump in `Cargo.toml` and automatically tag the matching commit on the remote.  This in turn triggers the `cargo publish` job, via the pushed tag or directly by detecting a version bump in `Cargo.toml`.
+
+
 ### The local process
 
 We use [cargo-release](https://github.com/crate-ci/cargo-release) to help us bump versions in various places, create the "Release {{version}}" commit and tag and push them upstream. This process happens locally on a developer machine and requires push access to GitHub, but no access to a https://crates.io token/account. Publishing is disabled locally and happens on the CI, which is made possible by this `cargo-release` config:
@@ -51,7 +55,3 @@ jobs:
       - name: Publish
         run: cargo publish --token ${{ secrets.cratesio_token }}
 ```
-
-### Future improvements
-
-The `cargo-release` process requires push access to `main` and push access for tags. Over time it'd be great if a `cargo-release` result (together with perhaps any other relevant changes) can be PR'd, and automatically released (+ pushing a new tag) directly frm the CI as soon as it is merged.
