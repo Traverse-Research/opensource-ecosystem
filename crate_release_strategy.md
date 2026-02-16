@@ -8,15 +8,13 @@ How we make it straightforward and accessible to publish new crate releases from
 
 ### The local process
 
-We use [cargo-release](https://github.com/crate-ci/cargo-release) to help us bump versions in various places, create the "Release {{version}}" commit and tag and push them upstream. This process happens locally on a developer machine and requires push access to GitHub, but no access to a https://crates.io token/account. Publishing is disabled locally and happens on the CI, which is made possible by this `cargo-release` config:
+We use [cargo-release](https://github.com/crate-ci/cargo-release) to help us bump versions in various places, create the "Release {{version}}" commit and push them upstream. This process happens locally on a developer machine and requires no access to a https://crates.io token/account. Publishing is disabled locally and happens on the CI, which is made possible by this `cargo-release` config:
 
 `release.toml`:
 ```toml
 pre-release-commit-message = "Release {{version}}"
-tag-message = "Release {{version}}"
-tag-name = "{{version}}"
 sign-commit = true
-sign-tag = true
+tag = false
 publish = false
 
 pre-release-replacements = [
@@ -40,14 +38,17 @@ With that, a developer performs a release on their local machine with:
 
 ```console
 $ cargo install cargo-release
-$ cargo release "<next version>"
+$ cargo release "<next version>" --allow-branch=your_release_branch
 ```
 
 (Only add `-x` if you are okay with the changes!)
 
 #### Creating a release on GitHub
 
-While [the CI process](###the-automated-ci-process) runs, click `Draft a new release` on the `releases` page on GitHub. Select the tag matching the version just pushed by `cargo-release` above, and click `Generate release notes` to automatically populate the title and description. Modify both as necessary. In particular, release notes convey user-facing changes: remove internal changes such as clippy fixes and other cleanups. When breaking changes are made or new features are added, spend an extra paragraph at the top detailing how users should migrate to or make use of the new release 🥳!
+We generally disallow pushing to `main` on all repos, meaning new releases made with `cargo release` need to go into `main` through a PR.
+Once this is merged, the developer then needs to manually create a new tag for the release.
+
+After the tag is created, click `Draft a new release` on the `releases` page on GitHub. Select the newly created tag, and click `Generate release notes` to automatically populate the title and description. Modify both as necessary. In particular, release notes convey user-facing changes: remove internal changes such as clippy fixes and other cleanups. When breaking changes are made or new features are added, spend an extra paragraph at the top detailing how users should migrate to or make use of the new release 🥳!
 
 ### The automated CI process
 
