@@ -45,7 +45,7 @@ $ cargo release "<next version>" --allow-branch=your_release_branch
 
 #### Creating a release on GitHub
 
-We generally disallow pushing to `main` on all repos, meaning new releases made with `cargo release` need to go into main through a PR.
+We generally disallow pushing to `main` on all repos, meaning new releases made with `cargo release` need to go into `main` through a PR.
 Once this is merged, the developer then needs to manually create a new tag for the release.
 
 After the tag is created, click `Draft a new release` on the `releases` page on GitHub. Select the newly created tag, and click `Generate release notes` to automatically populate the title and description. Modify both as necessary. In particular, release notes convey user-facing changes: remove internal changes such as clippy fixes and other cleanups. When breaking changes are made or new features are added, spend an extra paragraph at the top detailing how users should migrate to or make use of the new release 🥳!
